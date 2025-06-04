@@ -1,0 +1,30 @@
+@import url('https: //fonts.googleapis.com/css2?family=Crimson+Pro:wght@200..900&display=swap');
+@import url(https://db.onlinewebfonts.com/c/51b29a2185e8fe6cb23da672d6a0b712?family=Bauhaus+ITC);
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --primary: #320a4b;
+  --second: #118991;
+  --bgColor: #080519;
+}
+
+h1,
+h2,
+h4,
+p {
+  color: white;
+}
+
+body{
+  position: relative;
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--bgColor);
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
